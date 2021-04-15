@@ -1,2 +1,3 @@
 # UI-template
-Create UI template using pure CSS and HTML
+
+* UI template  creted: using HTML, CSS, Javascript
