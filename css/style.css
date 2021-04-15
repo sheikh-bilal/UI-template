@@ -1,0 +1,267 @@
+body{
+		margin: 0;
+		padding: 0;
+		font-family: Arial;
+	}
+	.topnav {
+	  overflow: hidden;
+	  background-color: #293b4c;
+	  text-transform: uppercase;
+	  padding: 15px 0px;
+	}
+
+	.topnav a {
+	  display: block;
+	  color: #f2f2f2;
+	  text-align: center;
+	  padding: 14px 16px;
+	  text-decoration: none;
+	  font-weight: bolder;
+	}
+	.topnav .icon {
+	  display: none;
+	}
+	.caption {
+		margin-left: 20px;
+		font-size: 1.8rem;
+		float: left;
+	}
+	.menu {
+		float: right;
+	}
+	a.menu {
+	    margin-top: 0.5%;
+	    margin-right: 30px;
+	}
+	a.icon.menu {
+	    margin-top: 0.8%;
+	}
+	.topnav:after{
+	  content: "";
+	  display: table;
+	  clear: both;
+	}
+	.intro , .about{
+		background: #69be9c;
+		padding: 10px 30px;
+		text-align: center;
+		color: white;
+	}
+	.intro_img{
+		margin-top: 70px;
+	}
+	.intro h1{
+		font-size: 4rem;
+		margin-bottom: 0;
+		font-weight: bolder;
+	}
+	.intro p{margin-top: 2px; margin-bottom:70px; font-size: 1.5rem;}
+	.portfolio{color: #2b3e50; text-align: center; margin-bottom: 50px;}
+	.portfolio h1 , .about h1, .contact h1{margin-top: 50px; margin-bottom: 0; font-weight: bolder; font-size: 3rem;}
+	.portfolio_row img{
+		max-width: 400px; 
+		width: 28%;
+		height: auto; 
+		margin-left: 30px;
+		margin-bottom: 30px;
+	}
+	.portfolio_row{ margin: auto;}
+	.about_content{margin-bottom: 30px; margin-left: 50px;}
+	.about_content p{ width:30%; display: inline-flex; text-align: left; margin-right: 30px; margin-top: 20px; line-height: 25px; font-size: 1.2rem;}
+	.about_btn {margin-bottom: 60px;}
+	.about_btn a{
+		text-decoration: none;
+		color: white;
+		padding: 15px;
+		border: 1.5px solid white;
+		width: 180px;
+		border-radius: 5px;
+	}
+	.about_btn a:hover{
+		color: #69be9c;
+		background: white;
+	}
+	.contact{ text-align: center;}
+	.contact_detail{margin-left: 20%;}
+	input[type=text] , input[type=email], input[type=number]{
+		color: #737c83;
+		font-size: 16px;
+		border: none;
+	 	border-bottom: 1px solid #e9ecef;
+	 	display: block;
+	 	padding: 15px;
+	 	width: 70%;
+	 	padding-bottom: 20px;
+	 	margin-bottom: 10px;
+	}
+	#msg{ padding-bottom: 100px; margin-bottom: 40px;}
+	.btnsend{
+		text-align: left;
+		margin-bottom: 100px;
+	}
+	.btnsend a{
+		text-decoration: none;
+		padding: 20px;
+		color: white;
+		background: #69be9c;
+		border-radius: 5px;
+
+	}
+	.btnsend a:hover{
+		color: #69be9c;
+		background: white;
+		border: 1px solid #69be9c;
+
+	}
+	.footer{background: #293b4c; color: white;}
+	.sec{
+		font-size: 18px;
+	    float: left;
+	    width: 33.33%;
+	    padding-top: 40px;
+	    text-align: center;
+	}
+	.sec a{
+		text-decoration: none;
+		color: #69be9c;
+	}
+	.footer:after {
+	  content: "";
+	  display: table;
+	  clear: both;
+	}
+	.links{margin-right: 5px;}
+	.links i.fa {
+		display: inline-block;
+		border-radius: 50%;
+		padding: 15px;
+		border: 1px solid white;
+		
+	}
+	.links i.fa:hover{
+		background: white;
+		color: #293b4c;		
+	}
+	.align{
+		max-width: 1180px;
+		margin: auto;
+	}
+	.container{
+		
+		min-width: 480px;
+		margin: auto;
+	}
+	.credit{
+		text-align: center;
+		background: #1a252e;
+		color: white;
+		height: 50px;
+		padding: 10px;
+	}
+	.icon{
+		color: white;
+		background: #69be9c;
+		border-radius: 10px;
+		padding: 20px;
+		display: none;
+	}
+
+
+	/*media queries*/
+	@media screen and (max-width: 769px) {
+	  
+	  .intro_img img{
+	  	width: 300px;
+	  	height:300px;
+	  }
+	  .intro_content img{
+	  	width: 500px;
+	  	height: 120px;
+	  }
+	  .intro_content p {font-size: 2rem; padding: 0 30px;}
+	  .portfolio h1 , .about h1, .contact h1{
+	  		font-size: 3.5rem;
+	  }
+	  .portfolio_img img{ width: 570px; height: 130px; }
+	  .portfolio_row img{ width: 100%; border-radius: 15px; margin-left: 0;}
+	  .about img, .contact img{ width: 450px; height: 100px; }
+	  .about_content p{ width: 100%; display:block; font-size: 1.8rem; line-height: 35px; margin: auto; margin-bottom: 20px;}
+	  .about_btn a{ font-size: 25px; padding: 20px;}
+	  .about_btn{padding-top: 20px;}
+	  .field{font-size: 20px;}
+	  input[type=text], input[type=email], input[type=number] {
+	  	font-size: 25px;
+	  }
+	  .btnsend a{font-size: 20px; padding: 25px;}
+	  .sec{ width: 100%; }
+
+	  .topnav a:not(:first-child) {display: none;}
+	  .topnav a.icon {
+	    float: right;
+	    display: block;
+	  }
+	  .topnav.responsive {position: relative;}
+	  .topnav.responsive .icon {
+	    position: absolute;
+	    right: 0;
+	    top: 0;
+	  }
+	  .topnav.responsive a {
+	    float: none;
+	    display: block;
+	    text-align: left;
+	  }
+	  .topnav.responsive a.menu{
+	  	margin-left: 20px;
+	  }
+
+	  .topnav.responsive a.icon.menu{
+	  	margin-top: 4%;
+	  }
+
+  }
+  @media screen and (max-width: 600px) {
+	  
+	  
+	  .intro h1{font-size: 3rem;}
+	  .intro_img img{
+	  	width: 300px;
+	  	height:300px;
+	  }
+	  .intro_content img{
+	  	width: 400px;
+	  	height: 100px;
+	  }
+	  .intro_content p {font-size: 1.8rem;}
+	  .portfolio h1 , .about h1, .contact h1{
+	  		font-size: 2.5rem;
+	  }
+	  .portfolio_img img{ width: 400px; height: 100px; }
+	  .portfolio_row img{ width: 100%; }
+	  .about img, .contact img{ width: 350px; height: 80px; }
+	  .about_content p{font-size: 1.5rem; line-height: 30px;}
+
+  }
+    @media screen and (max-width: 481px) {
+      
+	  
+	  .intro h1{font-size: 2.5rem;}
+	  .intro_img img{
+	  	width: 300px;
+	  	height:300px;
+	  }
+	  .intro_content img{
+	  	width: 300px;
+	  	height: 80px;
+	  }
+	  .intro_content p {font-size: 1.6rem;}
+	  .portfolio h1 , .about h1, .contact h1{
+	  		font-size: 2rem;
+	  }
+	  .portfolio_img img{ width: 350px; height: 90px; }
+	  .portfolio_row img{ width: 100%; max-width: 350px;}
+	  .about img, .contact img{ width: 300px; height: 80px; }
+	  .about_content p{font-size: 1.5rem; line-height: 30px;}
+	  .about_btn a{ font-size: 20px; padding: 20px;}
+  }
+}
